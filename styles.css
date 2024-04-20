@@ -1,0 +1,139 @@
+
+.first-container{
+    background-color:#A3FFD6 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.moon{
+    border-radius: 50%;
+    right: 300px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.mountain{
+    border-radius: 20%;
+}
+.h1{
+    font-size: 3rem;
+    font-family:"modern",serif ;
+    color: #1679AB ;
+}
+.p1{
+    color: #1679AB;
+    font-family: "humanist",sans-serif;
+}
+.star{
+    border-radius: 50%;
+    margin-right: 200px;
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prettylady{
+    border-radius: 100%;
+    margin-top: 50px;
+}
+.h2-1{
+    color: #1679AB;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p2{
+    display: block;
+    line-height: 2;
+    width: 30%;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h2-2{
+    color: #1679AB;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.parents{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.h3-1{
+    color: #1679AB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+.p3{
+    display: block;
+    line-height: 2;
+    text-align: left;
+}
+.typing{
+    display: block;
+}
+.cakes{
+    border-radius: 20%;
+}
+.last-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.h2-3{
+    color: #1679AB;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+} 
+.p4{
+    color: #1679AB;
+    font-weight: bolder;
+}
+.p5{
+    display: block;
+}
+hr {
+   border: dotted #eaf6f6 6px;
+   border-bottom: none;
+   width: 4%;
+   margin: 100px auto;
+}
+.btn{
+    display: inline-block;
+    background-color: #1679AB;
+    background-image: linear-gradient(to bottom #A3FFD6 #1679AB );
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    text-decoration: none;
+}
+.bottoncontainer{
+    background-color: #A3FFD6;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+.copyright{
+    color: #1679AB;
+}
